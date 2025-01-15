@@ -11,31 +11,31 @@ Opis projektu
 
 
 Przykład użycia
-Uruchomić aplikacje 
-Otworzyc w przegladarce localhost:8080(Zobaczysz stronę z domyślnym tekstem)
-Przejdź do http://localhost:8080/greeting?name=cos
-Powinieneś zobaczyć stronę z przywitaniem "Hello, cos!".
+- Uruchomić aplikacje 
+- Otworzyc w przegladarce localhost:8080(Zobaczysz stronę z domyślnym tekstem)
+- Przejdź do http://localhost:8080/greeting?name=Lukasz   
+    - Powinieneś zobaczyć stronę z przywitaniem "Hello, Lukasz!" która zawiera tez tekst i obrazek
 
-Technologie
-Java 23 (lub wyższa – w zależności od projektu)
-Spring Boot 3.4.1
-Thymeleaf – do obsługi widoków i renderowania HTML
-Maven – do zarządzania zależnościami i budową projektu
+Technologie:
+- Java 23 (lub wyższa – w zależności od projektu)
+- Spring Boot 3.4.1
+- Thymeleaf – do obsługi widoków i renderowania HTML
+- Maven – do zarządzania zależnościami i budową projektu
 
 Uruchamianie projektu 
 
-Sklonowanie repo
+- Sklonowanie repo
 git clone https://github.com/LookieM/first-demo-java-spring
-Przejscie do projektu
+- Przejscie do projektu
 cd first-demo-java-spring
-Zbudowanie projektu
+- Zbudowanie projektu
 mvn clean install
-Uruchomienie projektu
+- Uruchomienie projektu
 mvn spring-boot:run
 
 Otwórz przeglądarkę i przejdź do:
-http://localhost:8080/
-http://localhost:8080/greeting?name=TwojeImie
+- http://localhost:8080/
+- http://localhost:8080/greeting?name=TwojeImie
 
 Autor
 Łukasz Mrozowksi
