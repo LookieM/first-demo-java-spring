@@ -10,19 +10,19 @@ Opis projektu
 
 
 
-Przykład użycia
+3. Przykład użycia
 - Uruchomić aplikacje 
 - Otworzyc w przegladarce localhost:8080(Zobaczysz stronę z domyślnym tekstem)
 - Przejdź do http://localhost:8080/greeting?name=Lukasz   
     - Powinieneś zobaczyć stronę z przywitaniem "Hello, Lukasz!" która zawiera tez tekst i obrazek
 
-Technologie:
+4. Technologie:
 - Java 23 (lub wyższa – w zależności od projektu)
 - Spring Boot 3.4.1
 - Thymeleaf – do obsługi widoków i renderowania HTML
 - Maven – do zarządzania zależnościami i budową projektu
 
-Uruchamianie projektu 
+5. Uruchamianie projektu 
 
 - Sklonowanie repo
 git clone https://github.com/LookieM/first-demo-java-spring
