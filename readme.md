@@ -25,4 +25,18 @@ Maven – do zarządzania zależnościami i budową projektu
 Uruchamianie projektu 
 
 Sklonowanie repo
+git clone https://github.com/LookieM/first-demo-java-spring
+Przejscie do projektu
+cd first-demo-java-spring
+Zbudowanie projektu
+mvn clean install
+Uruchomienie projektu
+mvn spring-boot:run
+
+Otwórz przeglądarkę i przejdź do:
+http://localhost:8080/
+http://localhost:8080/greeting?name=TwojeImie
+
+Autor
+Łukasz Mrozowksi
     
