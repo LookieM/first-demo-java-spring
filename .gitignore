@@ -1,0 +1,50 @@
+# ----------------------------
+# Ogólne pliki systemowe
+# ----------------------------
+*.class
+*.log
+*.cache
+*.project
+*.classpath
+*.settings/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# ----------------------------
+# Katalogi zbudowane przez Mavena
+# ----------------------------
+target/
+out/
+
+# ----------------------------
+# Logi, raporty, pliki tymczasowe
+# ----------------------------
+*.log
+logs/
+*.tmp
+
+# ----------------------------
+# Pliki konfiguracyjne IDE
+# ----------------------------
+# IntelliJ
+.idea/
+*.idea/
+*.iml
+
+# Eclipse
+*.settings/
+*.prefs
+
+# VSCode
+.vscode/
+
+# ----------------------------
+# Pliki konfiguracyjne systemu
+# ----------------------------
+Thumbs.db
+*.swp
+*.swo
+
+# ----------------------------
